@@ -122,4 +122,50 @@ img {
 .row3 .col1, .row3 .col2 {
     padding-left:0px; 
 }
+
+form {
+    width: 50%;
+    margin: auto;
+}
+
+
+form {
+    font-family: raleway;
+    font-size: 22px;
+    font-weight: 200;
+    color: #181520;
+    text-transform: uppercase;
+    background-color:white;
+    box-shadow:2px 2px 25px gray;
+    padding:5%;
+}
+
+input, textarea {
+    background-color: transparent;
+    border: none;
+    border-bottom: solid 1px #181520;
+    margin-bottom: 25px;
+    width:100%;
+
+}
+
+textarea {
+    border: solid 1px #181520;
+    margin-top: 25px;
+}
+
+
+
+input[type="submit"] {
+    border: none;
+    width: 400px;
+    display:block;
+    margin:auto;
+    height:50px;
+    text-transform:uppercase;
+    background-color:#40d880;
+    color:white;
+}
+
+
 /*# sourceMappingURL=style.css.map */
