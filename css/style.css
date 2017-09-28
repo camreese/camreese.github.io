@@ -20,7 +20,7 @@
     height: 500px;
 }
 
-.row1, .row2, .row3, .row4, .row5, .row6 {
+.row1, .row1.5, .row2, .row3, .row4, .row5, .row6 {
     max-width: 1200px;
     margin: auto;
 }
@@ -93,6 +93,10 @@ img {
 .row1.5 {
   padding-top:50px;
   padding-bottom:50px;
+}
+
+.row1.5 h3 {
+  font-size:22px;
 }
 
 .row3 {
