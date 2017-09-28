@@ -1,12 +1,24 @@
 @charset "UTF-8";
 
-.content {
+.content1, .content3, .content5 {
+  background-color: #181520;
+}
+
+.content2, .content4, .content6 {
+  background-color: #40d880;
+}
+
+.content2 h2, .content2 h3, .content4 h2, .content4 h3, .content6 h2, .content6 h3
+ {
+  color:white;
+}
+
+.content1, .content2, .content3, .content4, .content5 {
   max-width:1200px;
   margin:auto;
 }
 .row1 {
     height: 500px;
-    background-color: #181520;
 }
 
 h1, h2, h3 {
