@@ -14,11 +14,15 @@
 }
 
 .content1, .content2, .content3, .content4, .content5 {
-  max-width:1200px;
-  margin:auto;
+  width:100%;
 }
 .row1 {
     height: 500px;
+}
+
+.row1, .row2, .row3, .row4, .row5, .row6 {
+    max-width: 1200px;
+    margin: auto;
 }
 
 h1, h2, h3 {
@@ -26,6 +30,10 @@ h1, h2, h3 {
     font-family:raleway;
     font-weight:100;
     text-transform:uppercase;
+}
+
+h2 {
+  text-align:center;
 }
 
 h1 {
@@ -36,13 +44,17 @@ h2 {
     font-size:48px;
 }
 
-.row2 h2 {
+.row2 h2, .row4 h2, .row6 h2 {
   color:white;
 }
 
 
 h3 {
-    font-size:28px;
+  font-size:28px;
+}
+
+.row2 h3, .row4 h3 .row6 h3 {
+  color:white;
 }
 
 .col1 {
