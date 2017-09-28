@@ -85,7 +85,7 @@ img {
 
 .row2, .row3, .row4,
  .row5, .row6 {
-    min-height: 500px;
+    min-height: 600px;
     padding-top: 50px;
     padding-bottom: 50px;
 }
@@ -103,5 +103,23 @@ img {
 .row3 ul {
     color: #40d880;
     font-family: raleway;
+}
+
+.row3 ul  {
+    color: white;
+    font-weight: 100;
+    text-align:center;
+    list-style:none;    
+    -webkit-padding-start:0px !important;
+    padding-top:30px
+}
+
+.row3 h3 {
+    text-align:center;
+    padding-top:30px;
+}
+
+.row3 .col1, .row3 .col2 {
+    padding-left:0px; 
 }
 /*# sourceMappingURL=style.css.map */
