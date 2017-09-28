@@ -1,11 +1,7 @@
 @charset "UTF-8";
 
 .row1 {
-    padding: 5%;
-    /* margin-left: 10%; */
-    padding-left: 10%;
-    padding-right: 10%;
-    height: 500px;
+    height: 700px;
     background-color: #181520;
 }
 
@@ -26,6 +22,21 @@ h3 {
 
 .col1 {
     padding-top: 100px;
+    padding-left:10%;
+    height:700px;
+}
+
+.col2 {
+  position: relative;
+  height:700px;
+  padding-right:10%;
+}
+
+img {
+  position:absolute;
+  bottom:0;
+  max-width:100;
+  height:auto;
 }
 
 /*# sourceMappingURL=style.css.map */
