@@ -93,7 +93,54 @@
             </div>
         </div>
     </div>
+    <div class="content4">
+        <div class="row4">
+                <div class="flip-box-container row m0">
+                <div class="flip-box row m0 wow fadeIn">
+                    <!-- Contact Address (front Side) -->
+                    <div class="row contact-box flip-box-part">
+                        <h2>get in touch</h2>
+                        <ul class="nav">
+                            <li><i class="fa fa-map-marker"></i>523 Sylvan Ave, 5th Floor
+                                <br>Mountain View, CA 94041USA</li>
+                            <li><i class="fa fa-phone"></i>+1 (234) 56789
+                                <br>+1 987 654 3210</li>
+                            <li><i class="fa fa-envelope"></i>support@watchland.com</li>
+                        </ul>
+                        <button class="flip-contact-box btn btn-block">contact us</button>
+                    </div>
+                    <!-- Contact Form (back Side) -->
+                    <div class="row contact-form flip-box-part">
+                        <a href="javascript:void(0);" class="js-close-flip">&times;</a>
+                        <!-- Contact Form Starts here -->
+                        <form action="php/contact.php" id="phpcontactform" method="POST">
+                            <div class="row">
+                                <div class="form-group col-sm-6">
+                                    <input type="text" name="name" class="form-control" placeholder="Name" required>
+                                </div>
+                                <div class="form-group col-sm-6">
+                                    <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" name="subject" class="form-control" placeholder="Subject" required>
+                            </div>
 
+                            <div class="form-group">
+                                <textarea class="form-control" name="message" placeholder="Message" required></textarea>
+                            </div>
+                            <button type="submit" id="js-contact-btn" class="btn btn-block">Send Message</button>
+                            <div id="js-contact-result" data-success-msg="Form submitted successfully." data-error-msg="Oops. Something went wrong."></div>
+                        </form>
+                        <!-- // End Contact form -->
+
+                    </div>
+                    <!-- // End back Side -->
+                </div>
+            </div>
+            <!-- // End Contact Box -->
+        </div>
+    </div>
 
 
 <!--========== Javascript Files ==========-->
