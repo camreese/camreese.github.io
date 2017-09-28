@@ -58,10 +58,13 @@ h3 {
 }
 
 .col1, .col2 {
-    height:500px;
-    position:relative;
-    width:50%;
-    float:left;
+  position:relative;
+  width:50%;
+  float:left;
+}
+
+.row1 .col1, .row1 .col2 {
+  height:500px;
 }
 
 .headline {
@@ -80,4 +83,25 @@ img {
   height:auto;
 }
 
+.row2, .row3, .row4,
+ .row5, .row6 {
+    min-height: 500px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.row3 {
+    width:80%;
+    margin:auto;
+}
+
+.row3 .col1, .row3 .col2 {
+    padding-left:5%;
+}
+
+
+.row3 ul {
+    color: #40d880;
+    font-family: raleway;
+}
 /*# sourceMappingURL=style.css.map */
