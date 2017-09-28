@@ -29,6 +29,11 @@
     <!--========== Main Styles==========-->
     <link href="/css/style.css" rel="stylesheet">
 
+    <!-- Audio Player -->
+    <link rel="stylesheet" href="/css/wptpa_style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.js"></script> <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.js"></script> <script src="/js/snap.svg.js"></script>
+    <script src="/js/wptpa_script.js"></script>
+    <script src="/js/playlists.js"></script>
 
 </head>
 
@@ -60,7 +65,7 @@
     <div class="content2">
         <div class="row2">
             <h2>hear my work</h2>
-            <div class="player">
+            <div id="camplayer" class="wptpa_wrapper"></div>
             </div>
         </div>
     </div>
@@ -123,6 +128,7 @@
 
 <!-- jQuery Latest -->
 <script src="js/lib/jquery-2.2.0.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 
 <!-- Bootstrap JS -->
 <script src="js/lib/bootstrap.min.js"></script>
@@ -147,5 +153,19 @@
 <script src="js/main.js"></script>
 <script type="text/javascript"></script>    
 
+<script>
+    $("#camplayer").tPlayer({
+        playlist: MIXES
+        playerBG: #181520
+        playlistBG: #181520
+        playerTextCLR: #40d880
+        buttonCLR: #40d880
+        buttonActiveCLR:#181520
+        seekBarCLR:#181520
+        progressBarCLR:#40d880
+        timeCLR:#40d880
+        playlistTextCLR:#40d880
+    });
+</script>
 </body>
 </html>
