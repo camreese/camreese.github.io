@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+.body {
+  margin:0px;
+}
+
 .content1, .content3, .content5 {
   background-color: #181520;
 }
