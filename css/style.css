@@ -32,8 +32,14 @@ h3 {
 
 .headline {
   position:absolute;
-  bottom:0;
+  top:50%;
+  transform:translatey(-50%);
 }
+
+.colcontain {
+  max-width:1200px;
+}
+
 img {
   position:absolute;
   bottom:0;
