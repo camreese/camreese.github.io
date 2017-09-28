@@ -96,45 +96,15 @@
     <div class="content4">
         <div class="row4">
             <form action="https://formspree.io/reesecameron@yahoo.com"
-      method="POST">
+            method="POST">
+                Your Name:<br>
                 <input type="text" name="name">
+                Your Email:<br>
                 <input type="email" name="_replyto">
+                Your message:<br>
+                <textarea name="message"></textarea><br>
                 <input type="submit" value="Send">
             </form>
-            <?php
-                $action=$_REQUEST['action'];
-                if ($action=="")    /* display the contact form */
-                    {
-                    ?>
-                    <form  action="" method="POST" enctype="multipart/form-data">
-                    <input type="hidden" name="action" value="submit">
-                    Your name:<br>
-                    <input name="name" type="text" value="" size="30"/><br>
-                    Your email:<br>
-                    <input name="email" type="text" value="" size="30"/><br>
-                    Your message:<br>
-                    <textarea name="message" rows="7" cols="30"></textarea><br>
-                    <input type="submit" value="Send email"/>
-                    </form>
-                    <?php
-                    } 
-                else                /* send the submitted data */
-                    {
-                    $name=$_REQUEST['name'];
-                    $email=$_REQUEST['email'];
-                    $message=$_REQUEST['message'];
-                    if (($name=="")||($email=="")||($message==""))
-                        {
-                        echo "All fields are required, please fill the form again.";
-                        }
-                    else{        
-                        $from="From: $name<$email>Return-path: $email";
-                        $subject="Thank you for contacting me. I will review your information and get back to you as soon as I can.";
-                        mail("reesecameron@yahoo.com", $subject, $message, $from);
-                        echo "Email sent!";
-                        }
-                    }  
-                ?>
         </div>
     </div>
 
