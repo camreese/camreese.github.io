@@ -57,14 +57,11 @@ h3 {
   color:white;
 }
 
-.col1 {
+.col1, .col2 {
     height:500px;
     position:relative;
-}
-
-.col2 {
-  position: relative;
-  height:500px;
+    width:50%;
+    float:left;
 }
 
 .headline {
