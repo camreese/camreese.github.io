@@ -1,4 +1,4 @@
-var mixes = [{
+var playlist_01 = [{
     "type":"audio",
     "artist":"Native Shadows",
     "title":"Awakening",
