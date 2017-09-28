@@ -1,8 +1,9 @@
 @charset "UTF-8";
 
 .row1 {
-    height: 700px;
+    height: 500px;
     background-color: #181520;
+    padding-left:10%;
 }
 
 h1, h3 {
@@ -21,17 +22,19 @@ h3 {
 }
 
 .col1 {
-    padding-top: 100px;
-    padding-left:10%;
-    height:700px;
+    height:500px;
+    position:relative;
 }
 
 .col2 {
   position: relative;
-  height:700px;
-  padding-right:10%;
+  height:500px;
 }
 
+.headline {
+  position:absolute;
+  bottom:0;
+}
 img {
   position:absolute;
   bottom:0;
