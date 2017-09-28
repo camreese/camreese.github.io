@@ -13,7 +13,7 @@
   color:white;
 }
 
-.content1, .content2, .content3, .content4, .content5 {
+.content1, .content1.5, .content2, .content3, .content4, .content5 {
   width:100%;
 }
 .row1 {
@@ -88,6 +88,11 @@ img {
     min-height: 600px;
     padding-top: 50px;
     padding-bottom: 50px;
+}
+
+.row1.5 {
+  padding-top:50px;
+  padding-bottom:50px;
 }
 
 .row3 {
