@@ -325,12 +325,14 @@ img {width:50% !important;}
         width:100%;
     }
 
+    .row1-5 {
+    min-width: initial;
+}
+
 }
 
 @media screen and (max-width:320px){
-.row1-5 {
-    min-width: initial;
-}
+
 
 div#playlist_01 {
     width: 100%;
