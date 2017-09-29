@@ -200,4 +200,16 @@ div#playlist_01 {
     moz-box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
     webkit-box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
+
+input, textarea {
+    font-family: raleway;
+    font-weight: 200;
+    font-size: 22px;
+    line-height: 1.5em;
+    border-bottom: solid 1px #cdcdcd;
+}
+
+textarea {
+    border: solid 1px #cdcdcd;
+}
 /*# sourceMappingURL=style.css.map */
