@@ -253,6 +253,11 @@ img {
 
 /*start media query */
 @media screen and (max-width:615px){
+
+.content1 {
+    padding:0;
+}
+
 .col1.animated.fadeIn {
     width: 100% !important;
     height:300px;
