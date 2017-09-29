@@ -179,7 +179,7 @@ textarea {
 
 input[type="submit"] {
     border: none;
-    width: 400px;
+    width: 100%;
     display:block;
     margin:auto;
     height:50px;
@@ -211,5 +211,128 @@ input, textarea {
 
 textarea {
     border: solid 1px #cdcdcd;
+}
+
+@media screen and (max-width:940px){
+
+.content1 {
+ padding:0 5% 0 5%;
+  }
+
+}
+
+@media screen and (max-width:768px){
+div#playlist_01 {
+    width:500px;
+}
+}
+
+@media screen and (max-width:615px){
+div#playlist_01 {
+    margin:auto;
+    display: block;
+}
+}
+
+.row3 {
+    overflow: hidden;
+}
+
+form {
+    min-width: 400px;
+}
+
+img {
+    overflow: hidden;
+}
+
+.col2 {
+    overflow: hidden;
+}
+
+
+/*start media query */
+@media screen and (max-width:615px){
+.col1.animated.fadeIn {
+    width: 100% !important;
+    height:300px;
+}
+
+
+.headline {
+    width: 100%;
+    text-align: center;
+}
+
+.row1 {
+    height: 600px;
+}
+
+.row1 .col2 {
+    width: 100% !important;
+    left:50%;
+    transform:translatex(-20%);
+    height:300px !important;
+}
+
+img {width:50% !important;}
+
+
+.col1 {
+    width: 100%;
+}
+
+.row3 .col2,
+.row3 .col1 {
+    left: 0;
+    transform: initial;
+    width: 100%;
+}
+}
+
+@media screen and (max-width:490px){
+    h1 {
+        font-size:42px;
+    }
+
+    h2 {
+        font-size:36px;
+    }
+
+    h3 {
+        font-size:22px;
+    }
+
+    .row1 {
+        height:450px;
+    }
+    .col1.animated.fadeIn {
+        height:150px;
+    }
+
+    form {
+        min-width: 0px;
+        margin: auto;
+        width: 80%;
+    }
+    
+    input[type="submit"] {
+        width:100%;
+    }
+
+}
+
+@media screen and (max-width:320px){
+.row1-5 {
+    min-width: initial;
+}
+
+div#playlist_01 {
+    width: 100%;
+}
+
+.col1.animated.fadeIn {
+    top:100px;
+}
 }
 /*# sourceMappingURL=style.css.map */
