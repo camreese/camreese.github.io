@@ -111,13 +111,20 @@
                 <textarea name="message" rows="7"></textarea><br>
                 <input type="submit" value="Send">
             </form>
+            <div style="display:none;" id="thankyou_message">
+                <h2>Thanks for reaching out. I will review your information and get back to you as soon as I can!</h2>
+            </div>
         </div>
     </div>
 
 
 <!--========== Javascript Files ==========-->
-<!-- jQuery Latest -->
-
+    
+    <!--===AJAX Form Submission===-->
+    <script data-cfasync="false" type="text/javascript"
+src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
+    
+    <!--===Audio Player Script===-->
     <script>
         $("#playlist_01").tPlayer({
           playlist: playlist_01
