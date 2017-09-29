@@ -24,16 +24,16 @@
       promoTime: 60000,
       songlimit: 0,
       playerBG: "#fff",
-      playerTextCLR: "#555",
-      buttonCLR: "#555",
-      buttonActiveCLR: "#3EC3D5",
-      seekBarCLR: "#555",
-      progressBarCLR: "#3EC3D5",
+      playerTextCLR: "#181520",
+      buttonCLR: "#181520",
+      buttonActiveCLR: "#40d880",
+      seekBarCLR: "#181520",
+      progressBarCLR: "#40d880",
       timeCLR: "#fff",
-      playlistBG: "#3EC3D5",
+      playlistBG: "#40d880",
       playlistTextCLR: "#fff",
       playlistCurBG: "#42CFE2",
-      playlistTextCurCLR: "#fff"
+      playlistTextCurCLR: "#181520"
     },
       settings = $.extend(defaults, options), // обьеденяем деволтные настройки с пользовательскими настройками
       $tPlayer = $(this), // Обьявляем главный контейнер
