@@ -31,7 +31,7 @@
       progressBarCLR: "#40d880",
       timeCLR: "#fff",
       playlistBG: "#fff",
-      playlistTextCLR: "#fff",
+      playlistTextCLR: "#181520",
       playlistCurBG: "#40d880",
       playlistTextCurCLR: "#181520"
     },
