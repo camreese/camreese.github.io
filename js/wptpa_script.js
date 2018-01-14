@@ -30,9 +30,9 @@
       seekBarCLR: "#181520",
       progressBarCLR: "#40d880",
       timeCLR: "#fff",
-      playlistBG: "#40d880",
+      playlistBG: "#fff",
       playlistTextCLR: "#fff",
-      playlistCurBG: "#42CFE2",
+      playlistCurBG: "#40d880",
       playlistTextCurCLR: "#181520"
     },
       settings = $.extend(defaults, options), // обьеденяем деволтные настройки с пользовательскими настройками
