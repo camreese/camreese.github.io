@@ -26,14 +26,14 @@
       playerBG: "#fff",
       playerTextCLR: "#181520",
       buttonCLR: "#181520",
-      buttonActiveCLR: "#2f692e",
+      buttonActiveCLR: "#980000",
       seekBarCLR: "#181520",
-      progressBarCLR: "#2f692e",
+      progressBarCLR: "#980000",
       timeCLR: "#fff",
       playlistBG: "#fff",
       playlistTextCLR: "#181520",
-      playlistCurBG: "#2f692e",
-      playlistTextCurCLR: "#181520"
+      playlistCurBG: "#980000",
+      playlistTextCurCLR: "#fff"
     },
       settings = $.extend(defaults, options), // обьеденяем деволтные настройки с пользовательскими настройками
       $tPlayer = $(this), // Обьявляем главный контейнер
