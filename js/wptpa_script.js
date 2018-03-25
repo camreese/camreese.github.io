@@ -26,13 +26,13 @@
       playerBG: "#fff",
       playerTextCLR: "#181520",
       buttonCLR: "#181520",
-      buttonActiveCLR: "#40d880",
+      buttonActiveCLR: "#2f692e",
       seekBarCLR: "#181520",
-      progressBarCLR: "#40d880",
+      progressBarCLR: "#2f692e",
       timeCLR: "#fff",
       playlistBG: "#fff",
       playlistTextCLR: "#181520",
-      playlistCurBG: "#40d880",
+      playlistCurBG: "#2f692e",
       playlistTextCurCLR: "#181520"
     },
       settings = $.extend(defaults, options), // обьеденяем деволтные настройки с пользовательскими настройками
