@@ -1,4 +1,12 @@
-var playlist_01 = [{
+var playlist_01 = [
+{
+    "type":"audio",
+    "artist":"The Holler and Shout",
+    "title":"Sinister Woman",
+    "audio":"/audio/Sinister-Woman.mp3",
+    "cover":"/images/the-holler-and-shout.jpg"
+},
+{
     "type":"audio",
     "artist":"Warpath",
     "title":"The Trooper (Cover)",
